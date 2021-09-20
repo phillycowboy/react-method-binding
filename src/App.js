@@ -5,7 +5,7 @@ import ButtonList from './ButtonList';
 function App() {
   return (
     <div className="App">
-        <h1>Method Binding</h1>
+        <h1 className="header">Method Binding</h1>
         <ButtonList />
     </div>
   );

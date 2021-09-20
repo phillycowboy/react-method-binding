@@ -1,7 +1,9 @@
 .App {
 	text-align: center;
 }
-
+.header {
+	color: black;
+}
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +38,18 @@
     transform: rotate(360deg);
   }
 } */
+.ButtonList {
+	height: 100vh;
+	padding-top: 200px;
+}
+
+.ButtonList button {
+	font-size: 30px;
+	margin: 30px;
+	display: inline-flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 20px;
+	/* padding-top: 10px; */
+}
